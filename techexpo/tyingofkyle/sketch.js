@@ -24,13 +24,15 @@ var pauseFlash = 0
 var weed;
 var nowPlaying
 
+/*
 function preload() {
   nowPlaying = loadSound('music/soundtrack.mp3')
 }
+*/
 
 function setup() {
-  nowPlaying.setVolume(1)
-  nowPlaying.play
+  //nowPlaying.setVolume(1)
+  //nowPlaying.play
   weed = loadImage("weed.png")
   frameRate(60)
   enemyAmount = Math.round(pow(1.3, wave))
@@ -113,7 +115,7 @@ function draw() {
   		healthPack.checkHit(player)
   		player.draw();
   		healthPack.draw()
-  	
+
   		//Check Enemy Collisions
   		//console.log(enemies.length);
   		for(a=0;a<enemies.length;a++) {
@@ -167,7 +169,7 @@ function draw() {
   			console.log("EnemiesLength: " + enemies.length);
   		}
   		//console.log("EnemiesKilled: " + enemiesKilled);
-  	
+
   		//Handle HUD
   		updateHud();
   		hud.draw();
@@ -176,7 +178,7 @@ function draw() {
   	}
   	//Check for Hackers
   	checkHacks();
-  	
+
   	//When Player Dies
   	if(!player.alive) {
   		fill(50);
@@ -232,7 +234,7 @@ function draw() {
   			textAlign(CENTER,CENTER);
   			strokeWeight(100);
   			text("NO HACKS! Charging " + prompt('DONT HACK EVER AGAIN! Enter your credit card info to send the Nigerian Prince $1000 or your OS will be deleted in 2 minutes.', '**** **** **** ****'), 0, 0, windowWidth, windowHeight);
-  			
+
   		}
       if(localStorage.getItem('highName') == null) {
         alreadyHigh = 1
