@@ -15,7 +15,22 @@
           justify-content: center;
 }
 
-.main-img .main-title {
+.main-img .main-title-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 30%;
+  height: 40%;
+}
+
+.main-img .main-title-container .main-title {
+  vertical-align: middle;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
   color: #FFFFFF;
-  font-size: 80px;
+  font-size: 4em;
+}
+
+.check-out {
+  margin-top: 5%;
+  width: 80%;
 }
