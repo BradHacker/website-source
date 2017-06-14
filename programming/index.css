@@ -32,6 +32,7 @@
 
 .check-out {
   margin-top: 25%;
+  margin-bottom: 25%;
   color: #00BCD4;
   border-color: #00BCD4;
 }
@@ -44,6 +45,8 @@
 
 .con {
   width: 90%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .navbar-text {

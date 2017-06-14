@@ -1,6 +1,5 @@
 .main-img {
   background-image: url("img/hero.jpg");
-  height: 80%;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -23,10 +22,12 @@
   transform: translateY(-50%);
   color: #00BCD4;
   font-size: 6em;
+  margin-top: 2.5%;
 }
 
 .check-out {
   margin-top: 25%;
+  margin-bottom: 25%;
   width: 25%%;
   color: #00BCD4;
   border-color: #00BCD4;
@@ -40,4 +41,6 @@
 
 .con {
   width: 90%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
