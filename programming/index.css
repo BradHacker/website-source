@@ -1,0 +1,57 @@
+.main-img {
+  background-image: url("img/hero.jpg");
+  height: 40%;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-title {
+  vertical-align: middle;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 6em;
+}
+
+.programming-title {
+  background-color: rgba(0,0,0, .8);
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.check-out {
+  margin-top: 25%;
+  width: 25%%;
+  color: #00BCD4;
+  border-color: #00BCD4;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #00BCD4;
+  border-color: #00BCD4;
+}
+
+.con {
+  width: 90%;
+}
+
+.navbar-text {
+  color: #BDBDBD;
+}
+
+/*.about p::after {
+  content: "";
+  border-right: 2px solid white;
+}*/
