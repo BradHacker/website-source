@@ -1,0 +1,42 @@
+body {
+  font-family: Dosis;
+  font-weight: 300;
+}
+.font-weight-light {
+  font-weight: 300;
+}
+.font-weight-medium {
+  font-weight: 500;
+}
+.font-weight-semi-bold {
+  font-weight: 600;
+}
+.hero-img {
+  background-image: url("/img/hero.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.about-img {
+  background-image: url("http://www.planwallpaper.com/static/images/HD-Wallpapers1_FOSmVKg.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.main-title {
+  color: #00BCD4;
+  font-size: 6rem;
+}
+.con {
+  width: 90%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+@media(max-width:768px) {
+  .main-title {
+    font-size: 3rem;
+  }
+  .check-out {
+    font-size: 1rem;
+  }
+}
