@@ -12,16 +12,31 @@ body {
   font-weight: 600;
 }
 .hero-img {
-  background-image: url("/img/hero.jpg");
-  background-size: cover;
+  background-image: url("/img/hero1.jpg");
+  background-size: 100% auto;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-.about-img {
-  background-image: url("http://www.planwallpaper.com/static/images/HD-Wallpapers1_FOSmVKg.jpeg");
-  background-size: cover;
+.contact-img {
+  background-image: url("/img/home_hero2.jpg");
+  background-size: 100% auto;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position-y: 100%;
+}
+.webResources-img {
+  background-image: url("./res/webDesign_hero1.png");
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+}
+.graphicResources-img {
+  background-image: url("./res/graphicDesign_hero1.jpg");
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-y: 100%;
 }
 .main-title {
   color: #00BCD4;
@@ -31,6 +46,13 @@ body {
   width: 90%;
   padding-top: 5%;
   padding-bottom: 5%;
+}
+.round-image {
+  border-radius: 50%;
+  border: 0;
+}
+.hover-lightgray:hover {
+  color: gray !important;
 }
 @media(max-width:768px) {
   .main-title {

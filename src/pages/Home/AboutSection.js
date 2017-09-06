@@ -13,7 +13,7 @@ export default class AboutSection extends React.Component {
           <div className="col-md-6 pl-5 pr-5">
             <i className="fa fa-image fa-5x text-info"></i>
             <p className="h3 mt-4 font-weight-medium">Graphic Design</p>
-            <p className="h4 mt-4 font-weight-light">This is a paragraph that needs to be replaced before sending out the update. This is just filler information.</p>
+            <p className="h4 mt-4 font-weight-light">I do logo design and other graphic design using tools such as <a href="http://www.adobe.com/products/illustrator.html">Adobe Illustrator</a> and <a href="https://affinity.serif.com/en-us/designer/">Affinity Designer</a>.</p>
           </div>
         </div>
       </div>
