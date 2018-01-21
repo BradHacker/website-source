@@ -7,7 +7,7 @@ export default class ExamplesSection extends React.Component {
       <div className="container">
         <div className="row text-dark text-center">
           <div className="col-md-6 pl-5 pr-5">
-            <img src={siteImg} style={{ maxWidth: 300 }} alt="CBC Logo"/>
+            <img src={siteImg} className="example-photo" alt="CBC Logo"/>
             <p className="h3 mt-4 font-weight-medium">CHESTERFIELD BASEBALL CLUB</p>
             <p className="h4 mt-4 font-weight-light">This was designed using Adobe Illustrator CS6.</p>
           </div>

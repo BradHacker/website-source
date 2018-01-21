@@ -8,27 +8,16 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className="App">
-        <Nav active={0}/>
         <Section
           isHero={true}
-          title={'Welcome'}
-          textJustify={'left'}
+          nav={<Nav active={0}/>}
+          title={'welcome'}
+          textJustify={'center'}
         />
         <Section
           content={<AboutSection />}
-          title={'Services'}
+          title={'services'}
         />
-        <Section
-          title={'Contact'}
-          bgImage={'contact'}
-          textJustify={'right'}
-          padding={'p-4'}
-          color={'light'} content={
-            <div>
-              <p className="h5">Email - <a href="mailto:harkerbd@gmail.com">harkerbd@gmail.com</a></p>
-              <p className="h5">LinkedIn - <a href="https://www.linkedin.com/in/bradley-harker-60604262/"><i className="fa fa-linkedin-square"></i></a></p>
-            </div>
-          }/>
         <Footer/>
       </div>
     )

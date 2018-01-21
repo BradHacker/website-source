@@ -9,9 +9,9 @@ export default class GraphicDesign extends React.Component {
   render() {
     return (
       <div className="App">
-        <Nav active={3}/>
         <Section
           isHero={true}
+          nav={<Nav active={3}/>}
           title={'Graphic Design'}
           textJustify={'left'}
         />

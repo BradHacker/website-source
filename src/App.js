@@ -8,6 +8,7 @@ import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import WebDesign from './pages/WebDesign/WebDesign'
 import GraphicDesign from './pages/GraphicDesign/GraphicDesign'
+import Photography from './pages/Photography/Photography'
 
 class App extends Component {
   render() {
@@ -23,6 +24,9 @@ class App extends Component {
     let graphicdesign = () => {
       return <GraphicDesign />
     }
+    let photography = () => {
+      return <Photography />
+    }
     return (
       <Router>
         <div>
@@ -30,6 +34,7 @@ class App extends Component {
           <Route exact path={process.env.PUBLIC_URL + '/about'} component={about}/>
           <Route exact path={process.env.PUBLIC_URL + '/webdesign'} component={webdesign}/>
           <Route exact path={process.env.PUBLIC_URL + '/graphicdesign'} component={graphicdesign}/>
+          <Route exact path={process.env.PUBLIC_URL + '/photography'} component={photography}/>
         </div>
       </Router>
     );

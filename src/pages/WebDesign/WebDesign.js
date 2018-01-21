@@ -9,9 +9,9 @@ export default class WebDesign extends React.Component {
   render() {
     return (
       <div className="App">
-        <Nav active={2}/>
         <Section
           isHero={true}
+          nav={<Nav active={2}/>}
           title={'Web Design'}
           textJustify={'left'}
         />

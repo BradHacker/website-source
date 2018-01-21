@@ -8,9 +8,17 @@ export default class About extends React.Component {
   render() {
     return (
       <div className="App">
-        <Nav active={1}/>
-        <Section isHero={true} title={'About'} textJustify={'left'}/>
-        <Section content={<SchoolSection/>} title={'School'} textJustify={'center'}/>
+        <Section
+          isHero={true}
+          nav={<Nav active={1}/>}
+          title={'About'}
+          textJustify={'left'}
+        />
+        <Section
+          content={<SchoolSection/>}
+          title={'School'}
+          textJustify={'center'}
+        />
         <Footer/>
       </div>
     )
