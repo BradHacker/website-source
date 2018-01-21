@@ -11,8 +11,8 @@ export default class Photography extends React.Component {
         <Section
           isHero={true}
           nav={<Nav active={4}/>}
-          title={'Photography'}
-          textJustify={'left'}
+          title={'photography'}
+          textJustify={'center'}
           color={'light'}
         />
         <Section

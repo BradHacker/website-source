@@ -11,12 +11,12 @@ export default class About extends React.Component {
         <Section
           isHero={true}
           nav={<Nav active={1}/>}
-          title={'About'}
-          textJustify={'left'}
+          title={'about'}
+          textJustify={'center'}
         />
         <Section
           content={<SchoolSection/>}
-          title={'School'}
+          title={'school'}
           textJustify={'center'}
         />
         <Footer/>

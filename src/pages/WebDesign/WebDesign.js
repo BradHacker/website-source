@@ -12,15 +12,15 @@ export default class WebDesign extends React.Component {
         <Section
           isHero={true}
           nav={<Nav active={2}/>}
-          title={'Web Design'}
-          textJustify={'left'}
+          title={'web design'}
+          textJustify={'center'}
         />
         <Section
-          title={'Examples'}
+          title={'examples'}
           content={<ExamplesSection />}
         />
         <Section
-          title={'Resources'}
+          title={'resources'}
           content={<ResourcesSection />}
           bgImage={'webResources'}
           color={'light'}

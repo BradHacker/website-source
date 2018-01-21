@@ -12,15 +12,15 @@ export default class GraphicDesign extends React.Component {
         <Section
           isHero={true}
           nav={<Nav active={3}/>}
-          title={'Graphic Design'}
-          textJustify={'left'}
+          title={'graphic design'}
+          textJustify={'center'}
         />
         <Section
-          title={'Examples'}
+          title={'examples'}
           content={<ExamplesSection />}
         />
         <Section
-          title={'Resources'}
+          title={'resources'}
           content={<ResourcesSection />}
           bgImage={'graphicResources'}
           color={'light'}
