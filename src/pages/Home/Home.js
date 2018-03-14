@@ -15,7 +15,7 @@ export default class Home extends React.Component {
           textJustify={'center'}
         />
         <Section
-          content={<AboutSection />}
+          content={<AboutSection accentColor='red'/>}
           title={'services'}
         />
         <Footer/>

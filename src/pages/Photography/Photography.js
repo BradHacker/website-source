@@ -13,10 +13,10 @@ export default class Photography extends React.Component {
           nav={<Nav active={4}/>}
           title={'photography'}
           textJustify={'center'}
-          color={'light'}
+          accentColor={'purple'}
         />
         <Section
-          content={<PhotoSection />}
+          content={<PhotoSection accentColor={'purple'}/>}
         />
         <Footer/>
       </div>

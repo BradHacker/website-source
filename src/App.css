@@ -18,11 +18,53 @@ body {
   font-weight: 600;
 }
 .hero-img {
-  background-image: linear-gradient(to top right, rgba(255, 0, 0, 0.75), rgba(0, 0, 255, 0.75)), url("/img/hero1.jpg");
-  background-image: linear-gradient(to top right, rgba(255, 0, 0, 0.75), rgba(0, 0, 255, 0.75)), url("/img/hero1.webp");
+  background-image: linear-gradient(to bottom, rgba(38, 50, 56, 0.75) 0%, rgba(255, 82, 82, 0.75) 50%, rgba(255, 82, 82, 0.75) 100%), url("/img/hero1.jpg");
+  background-image: linear-gradient(to bottom, rgba(38, 50, 56, 0.75) 0%, rgba(255, 82, 82, 0.75) 50%, rgba(255, 82, 82, 0.75) 100%), url("/img/hero1.webp");
   background-size: 100% auto;
   background-attachment: fixed;
   background-repeat: repeat-y;
+}
+.accent-red {
+  color: rgb(255, 82, 82) !important;
+}
+.accent-yellow {
+  color: rgb(255, 235, 59) !important;
+}
+.accent-green {
+  color: rgb(76, 175, 80) !important;
+}
+.accent-cyan {
+  color: rgb(0, 188, 212) !important;
+}
+.accent-purple {
+  color: rgb(224, 64, 251) !important;
+}
+.accent-amber {
+  color: rgb(255, 193, 7) !important;
+}
+.hero-accent-red {
+  background-image: linear-gradient(to bottom, rgba(38, 50, 56, 0.75) 0%, rgba(255, 82, 82, 0.75) 50%), url("/img/hero1.jpg");
+  background-image: linear-gradient(to bottom, rgba(38, 50, 56, 0.75) 0%, rgba(255, 82, 82, 0.75) 50%), url("/img/hero1.webp");
+}
+.hero-accent-yellow {
+  background-image: linear-gradient(to bottom, rgba(38, 50, 56, 0.75) 0%, rgba(255, 235, 59, 0.75) 50%), url("/img/hero1.jpg");
+  background-image: linear-gradient(to bottom, rgba(38, 50, 56, 0.75) 0%, rgba(255, 235, 59, 0.75) 50%), url("/img/hero1.webp");
+}
+.hero-accent-green {
+  background-image: linear-gradient(to bottom, rgba(38, 50, 56, 0.75) 0%, rgba(76, 175, 80, 0.75) 50%), url("/img/hero1.jpg");
+  background-image: linear-gradient(to bottom, rgba(38, 50, 56, 0.75) 0%, rgba(76, 175, 80, 0.75) 50%), url("/img/hero1.webp");
+}
+.hero-accent-cyan {
+  background-image: linear-gradient(to bottom, rgba(38, 50, 56, 0.75) 0%, rgba(0, 188, 212, 0.75) 50%), url("/img/hero1.jpg");
+  background-image: linear-gradient(to bottom, rgba(38, 50, 56, 0.75) 0%, rgba(0, 188, 212, 0.75) 50%), url("/img/hero1.webp");
+}
+.hero-accent-purple {
+  background-image: linear-gradient(to bottom, rgba(38, 50, 56, 0.75) 0%, rgba(224, 64, 251, 0.75) 50%), url("/img/hero1.jpg");
+  background-image: linear-gradient(to bottom, rgba(38, 50, 56, 0.75) 0%, rgba(224, 64, 251, 0.75) 50%), url("/img/hero1.webp");
+}
+.hero-accent-amber {
+  background-image: linear-gradient(to bottom, rgba(38, 50, 56, 0.75) 0%, rgba(255, 193, 7, 0.75) 50%), url("/img/hero1.jpg");
+  background-image: linear-gradient(to bottom, rgba(38, 50, 56, 0.75) 0%, rgba(255, 193, 7, 0.75) 50%), url("/img/hero1.webp");
 }
 .contact-img {
   background-image: url("/img/home_hero2.jpg");
@@ -103,6 +145,30 @@ body {
 .small-title {
   max-width: 80%;
   margin-left: 10%;
+}
+.more-link {
+  text-decoration: none !important;
+  font-weight: bold;
+  color: #212121;
+}
+.more-link:hover {
+  color: #FF5252;
+}
+.more-link-amber {
+  text-decoration: none !important;
+  font-weight: bold;
+  color: #ffc107;
+}
+.more-link-amber:hover {
+  color: #ffa000;
+}
+.more-link-red {
+  text-decoration: none !important;
+  font-weight: bold;
+  color: #ff5252;
+}
+.more-link-red:hover {
+  color: #d50000;
 }
 @media(max-width:768px) {
   .main-title {

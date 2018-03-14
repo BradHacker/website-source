@@ -5,11 +5,13 @@ import Footer from '../../components/Footer'
 import Examples from '../../components/Examples'
 import Resources from '../../components/Resources'
 
-import bradSiteImg from '../../res/bradhackerSite.png'
-import meteorImg from '../../res/meteor.svg'
-import reactImg from '../../res/react.svg'
+import p5nnImg from '../../res/p5nn.png'
+import srImg from '../../res/smartRockets.png'
+import nnGeneticImg from '../../res/nnGenetic.png'
+import nocImg from '../../res/noc.png'
+import ctImg from '../../res/ct.jpg'
 
-import data from '../../data/WebDesignData.json'
+import data from '../../data/MachineLearningData.json'
 
 export default class WebDesign extends React.Component {
   constructor() {
@@ -25,18 +27,18 @@ export default class WebDesign extends React.Component {
       <div className="App">
         <Section
           isHero={true}
-          nav={<Nav active={2}/>}
-          title={'web design'}
+          nav={<Nav active={5}/>}
+          title={'machine learning'}
           textJustify={'center'}
-          accentColor={'green'}
+          accentColor={'amber'}
         />
         <Section
           title={'examples'}
-          content={<Examples accentColor={'green'} entries={this.state.exampleEntries} images={[bradSiteImg]}/>}
+          content={<Examples entries={this.state.exampleEntries} images={[p5nnImg,srImg,nnGeneticImg]} accentColor={'amber'}/>}
         />
         <Section
           title={'resources'}
-          content={<Resources entries={this.state.resourceEntries} images={[meteorImg, reactImg]}/>}
+          content={<Resources entries={this.state.resourceEntries} images={[nocImg, ctImg]}/>}
           bgImage={'webResources'}
           color={'text-primary-color'}
         />

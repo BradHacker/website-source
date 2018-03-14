@@ -74,6 +74,7 @@ export default class PhotoSection extends React.Component {
         margin                     : 'auto'
       }
     }
+    let color = this.props.accentColor ? ' accent-' + this.props.accentColor : ' primary-text-color'
     return (
       <div className="container-fluid">
         <Modal
@@ -83,10 +84,10 @@ export default class PhotoSection extends React.Component {
           contentLabel="Modal"
         >
           <div className="my-auto">
-            <Photo photo={this.state.selectedPhoto} title={this.state.selectedPhotoTitle} fullsize={true} close={this.closeModal}/>
+            <Photo accentColor={this.props.accentColor} photo={this.state.selectedPhoto} title={this.state.selectedPhotoTitle} fullsize={true} close={this.closeModal}/>
           </div>
         </Modal>
-        <div className="row">
+        <div className={'row' + color}>
           <Photo photo={img31} title={'Brick'} open={(img, title) => this.openModal(img, title)} close={this.closeModal}/>
           <Photo photo={img30} title={'Origami Dragon'} open={(img, title) => this.openModal(img, title)} close={this.closeModal}/>
           <Photo photo={img29} title={'Skate'} open={(img, title) => this.openModal(img, title)} close={this.closeModal}/>

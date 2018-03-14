@@ -13,11 +13,13 @@ export default class About extends React.Component {
           nav={<Nav active={1}/>}
           title={'about'}
           textJustify={'center'}
+          accentColor={'yellow'}
         />
         <Section
-          content={<SchoolSection/>}
+          content={<SchoolSection color={'yellow'}/>}
           title={'school'}
           textJustify={'center'}
+          accentColor={'yellow'}
         />
         <Footer/>
       </div>

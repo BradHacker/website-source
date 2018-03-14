@@ -8,31 +8,33 @@ export default class Section extends React.Component {
     let bgImage = this.props.bgImage ? (' ' + this.props.bgImage + '-img') : ''
     let padding = this.props.padding ? ' ' + this.props.padding : ' p-3'
     let textJustify = ' text-' + (this.props.textJustify ? this.props.textJustify : 'center')
-    let color = this.props.color ? ' text-' + this.props.color : ' text-dark'
+    let color = this.props.color ? ' ' + this.props.color : ' primary-text-color'
+    let accentColor = this.props.accentColor ? ' accent-' + this.props.accentColor : ' accent-red'
 
     if (this.props.isHero) {
       heroClass = ' hero-img pl-2 pr-2 pb-5'
       titleClass = ' main-title'
       heroPadding = ' pt-0'
       padding = ''
+      color = ' text-primary-color'
+      accentColor = this.props.accentColor ? ' hero-accent-' + this.props.accentColor : ' hero-accent-red'
     }
 
     return (
-      <div className={'container-fluid' + padding + heroClass + heroPadding + bgImage + textJustify + color}>
+      <div className={'container-fluid' + padding + heroClass + heroPadding + bgImage + textJustify + color + accentColor}>
         { this.props.nav ? (
           this.props.nav
         ) : ("")}
         <div className="row">
           <div className="col-12">
-            <p className={titleClass}>{this.props.title}</p>
+            <p className={titleClass + color}>{this.props.title}</p>
           </div>
         </div>
         { this.props.content ? <br/> : ''}
-        <div className="row">
-          <div className={this.props.image ? 'col-md-8' : 'col-md-12'}>
-            {this.props.content}
-          </div>
+        <div>
+          {this.props.content}
         </div>
+
       </div>
     )
   }
