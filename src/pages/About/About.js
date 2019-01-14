@@ -21,7 +21,7 @@ export default class About extends React.Component {
           textJustify={"center"}
           accentColor={"yellow"}
         />
-        <Footer />
+        <Footer setPage={this.props.setPage} />
       </div>
     );
   }

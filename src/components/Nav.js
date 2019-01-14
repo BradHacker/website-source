@@ -16,7 +16,10 @@ export default class Nav extends React.Component {
         >
           <span className="navbar-toggler-icon" />
         </button>
-        <Link to="/" className="navbar-brand font-weight-light" alt="">
+        <a
+          onClick={() => this.props.setPage("home")}
+          className="navbar-brand font-weight-light"
+        >
           <img
             src="/img/logo.svg"
             width="30"
@@ -25,12 +28,13 @@ export default class Nav extends React.Component {
             className="mr-2"
           />
           bradley harker
-        </Link>
+        </a>
+
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link
-                to="/"
+              <a
+                onClick={() => this.props.setPage("home")}
                 className={
                   this.props.active === 0
                     ? "nav-link accent-text"
@@ -38,11 +42,11 @@ export default class Nav extends React.Component {
                 }
               >
                 home
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link
-                to="/about"
+              <a
+                onClick={() => this.props.setPage("about")}
                 className={
                   this.props.active === 1
                     ? "nav-link accent-text"
@@ -50,23 +54,23 @@ export default class Nav extends React.Component {
                 }
               >
                 about
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link
-                to="/webdesign"
+              <a
+                onClick={() => this.props.setPage("webDesign")}
                 className={
                   this.props.active === 2
                     ? "nav-link accent-text"
                     : "nav-link secondary-text"
                 }
               >
-                web design
-              </Link>
+                webDesign
+              </a>
             </li>
             <li className="nav-item">
-              <Link
-                to="/graphicdesign"
+              <a
+                onClick={() => this.props.setPage("graphicDesign")}
                 className={
                   this.props.active === 3
                     ? "nav-link accent-text"
@@ -74,11 +78,11 @@ export default class Nav extends React.Component {
                 }
               >
                 graphic design
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link
-                to="/photography"
+              <a
+                onClick={() => this.props.setPage("photography")}
                 className={
                   this.props.active === 4
                     ? "nav-link accent-text"
@@ -86,11 +90,11 @@ export default class Nav extends React.Component {
                 }
               >
                 photography
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link
-                to="/machine-learning"
+              <a
+                onClick={() => this.props.setPage("machineLearning")}
                 className={
                   this.props.active === 5
                     ? "nav-link accent-text"
@@ -98,7 +102,7 @@ export default class Nav extends React.Component {
                 }
               >
                 machine learning
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

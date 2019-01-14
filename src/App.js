@@ -29,16 +29,22 @@ class App extends Component {
     switch (page) {
       case "about":
         currentPage = <About setPage={this.setPage} />;
+        break;
       case "webDesign":
         currentPage = <WebDesign setPage={this.setPage} />;
+        break;
       case "graphicDesign":
         currentPage = <GraphicDesign setPage={this.setPage} />;
+        break;
       case "photography":
         currentPage = <Photography setPage={this.setPage} />;
+        break;
       case "machineLearning":
         currentPage = <MachineLearning setPage={this.setPage} />;
+        break;
       default:
         currentPage = <Home setPage={this.setPage} />;
+        break;
     }
     return currentPage;
   }

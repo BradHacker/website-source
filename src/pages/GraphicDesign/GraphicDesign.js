@@ -51,7 +51,7 @@ export default class GraphicDesign extends React.Component {
           bgImage={"graphicResources"}
           color={"text-primary-color"}
         />
-        <Footer />
+        <Footer setPage={this.props.setPage} />
       </div>
     );
   }

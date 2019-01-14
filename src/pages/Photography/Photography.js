@@ -16,7 +16,7 @@ export default class Photography extends React.Component {
           accentColor={"purple"}
         />
         <Section content={<PhotoSection accentColor={"purple"} />} />
-        <Footer />
+        <Footer setPage={this.props.setPage} />
       </div>
     );
   }

@@ -15,11 +15,16 @@ export default class Home extends React.Component {
           textJustify={"center"}
         />
         <Section
-          content={<AboutSection accentColor="accent-text" />}
+          content={
+            <AboutSection
+              setPage={this.props.setPage}
+              accentColor="accent-text"
+            />
+          }
           title={"services"}
           color={"dark-text"}
         />
-        <Footer />
+        <Footer setPage={this.props.setPage} />
       </div>
     );
   }

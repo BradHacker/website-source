@@ -51,7 +51,7 @@ export default class WebDesign extends React.Component {
           bgImage={"webResources"}
           color={"text-primary-color"}
         />
-        <Footer />
+        <Footer setPage={this.props.setPage} />
       </div>
     );
   }
