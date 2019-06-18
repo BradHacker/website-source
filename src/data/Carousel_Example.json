@@ -1,0 +1,26 @@
+{
+  "carousel": {
+    "title": "bradley harker",
+    "tagline": "web designer \u00B7 graphic designer \u00B7 programmer \u00B7 photographer",
+    "block": "",
+    "isHero": false,
+    "videos": [
+      {
+        "src": "/videos/Love-Coding.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "src": "/videos/Hard_Drive_Videvo.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "src": "/videos/Words.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "src": "/videos/Modem-lights.mp4",
+        "type": "video/mp4"
+      }
+    ]
+  }
+}

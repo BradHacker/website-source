@@ -1,0 +1,127 @@
+{
+  "sections": [
+    {
+      "type": "TwoColumn",
+      "img": {
+        "src": "https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-main.jpg",
+        "alt": ""
+      },
+      "header": "Material Design for Bootstrap",
+      "taglines": [
+        "This template is created with Material Design for Bootstrap ( MDB ) framework.",
+        "Read details below to learn more about MDB."
+      ],
+      "description": "400+ material UI elements, 600+ material icons, 74 CSS animations, SASS files, templates, tutorials and many more. Free for personal and commercial use.",
+      "links": [
+        {
+          "pageLink": "",
+          "faClasses": "fa fa-chevron-right",
+          "text": "Learn More"
+        }
+      ]
+    },
+    {
+      "type": "ThreeColumn",
+      "img": {
+        "src": "https://mdbootstrap.com/img/Others/screens.png",
+        "alt": "MDB Magazine Template displayed on iPhone"
+      },
+      "header": "Not Enough?",
+      "tilesLeft": [
+        {
+          "title": "Free for personal and commercial use",
+          "description": "Our license is user-friendly. Feel free to use MDB for both private as well as commercial projects."
+        },
+        {
+          "title": "400+ UI elements",
+          "description": "An impressive collection of flexible components allows you to develop any project."
+        }
+      ],
+      "tilesRight": [
+        {
+          "title": "Free for personal and commercial use",
+          "description": "Our license is user-friendly. Feel free to use MDB for both private as well as commercial projects."
+        },
+        {
+          "title": "400+ UI elements",
+          "description": "An impressive collection of flexible components allows you to develop any project."
+        }
+      ]
+    },
+    {
+      "type": "Icons",
+      "img": {
+        "src": "https://mdbootstrap.com/img/Others/screens.png",
+        "alt": "MDB Magazine Template displayed on iPhone"
+      },
+      "header": "Not Enough?",
+      "cols": 2,
+      "tiles": [
+        {
+          "fa": "fab fa-firefox",
+          "title": "Free for personal and commercial use",
+          "description": "Our license is user-friendly. Feel free to use MDB for both private as well as commercial projects."
+        },
+        {
+          "fa": "fas fa-level-up-alt",
+          "title": "Frequent updates",
+          "description": "MDB becomes better every month. We love the project and enhance as much as possible."
+        }
+      ]
+    },
+    {
+      "type": "Gallery",
+      "header": "Gallery",
+      "rows": [
+        {
+          "cols": [
+            {
+              "img": {
+                "src": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img(115).jpg",
+                "alt": ""
+              }
+            },
+            {
+              "img": {
+                "src": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img(116).jpg",
+                "alt": ""
+              }
+            },
+            {
+              "img": {
+                "src": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img(117).jpg",
+                "alt": ""
+              }
+            }
+          ]
+        },
+        {
+          "cols": [
+            {
+              "img": {
+                "src": "https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img(117).jpg",
+                "alt": ""
+              }
+            },
+            {
+              "img": {
+                "src": "https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img(118).jpg",
+                "alt": ""
+              }
+            }
+          ]
+        },
+        {
+          "cols": [
+            {
+              "img": {
+                "src": "https://mdbootstrap.com/img/Photos/Slides/img%20(137).jpg",
+                "alt": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

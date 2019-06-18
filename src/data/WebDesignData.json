@@ -1,55 +1,87 @@
 {
-  "exampleEntries": [
-    {
-      "image": {
-        "alt": "Site Screenshot"
+  "name": "web design",
+  "carousel": {
+    "title": "web design",
+    "tagline": "",
+    "block": "",
+    "isHero": true,
+    "videos": [
+      {
+        "src": "/videos/Love-Coding.mp4",
+        "type": "video/mp4"
       },
-      "title": "BRADHACKER.GITHUB.IO",
-      "description": "This site was built purely using react and was originally scaffolded using Facebook's create-react-app."
-    }
-  ],
-  "resourceEntries": [
-    {
-      "image": {
-        "alt": "Meteor Logo"
+      {
+        "src": "/videos/Hard_Drive_Videvo.mp4",
+        "type": "video/mp4"
       },
-      "title": "Meteor",
-      "links": [
+      {
+        "src": "/videos/Words.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "src": "/videos/Modem-lights.mp4",
+        "type": "video/mp4"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "Gallery",
+      "header": "examples",
+      "rows": [
         {
-          "href": "https://www.meteor.com/",
-          "icon": "globe"
-        },
-        {
-          "href": "https://www.facebook.com/meteorjs/",
-          "icon": "facebook"
-        },
-        {
-          "href": "https://twitter.com/meteorjs?lang=en",
-          "icon": "twitter"
-        },
-        {
-          "href": "https://www.youtube.com/user/MeteorVideos",
-          "icon": "youtube"
+          "cols": [
+            {
+              "img": {
+                "src": "/img/bradhacker.png",
+                "alt": "bradhacker.github.io"
+              },
+              "text": "bradhacker.github.io",
+              "link": "https://bradhacker.github.io"
+            },
+            {
+              "img": {
+                "src": "/img/bourgeoisentertainment.png",
+                "alt": "bourgeois-ent.com"
+              },
+              "text": "bourgeois-ent.com",
+              "link": "http://bourgeois-ent.com"
+            }
+          ]
         }
       ]
     },
     {
-      "image": {
-        "alt": "React Logo"
-      },
-      "title": "React",
-      "links": [
+      "type": "Gallery",
+      "header": "resources",
+      "rows": [
         {
-          "href": "https://facebook.github.io/react/",
-          "icon": "globe"
-        },
-        {
-          "href": "https://www.facebook.com/react",
-          "icon": "facebook"
-        },
-        {
-          "href": "https://twitter.com/reactjs",
-          "icon": "twitter"
+          "cols": [
+            {
+              "img": {
+                "src": "/img/meteor.svg",
+                "alt": "meteor js"
+              },
+              "text": "meteor js",
+              "link": "https://www.meteor.com/"
+            },
+            {
+              "img": {
+                "src": "/img/react.svg",
+                "alt": "react js"
+              },
+              "text": "react js",
+              "link": "https://reactjs.org/"
+            },
+            {
+              "img": {
+                "src": "/img/angular.svg",
+                "alt": "angular js"
+              },
+              "text": "angular js",
+              "link": "https://angularjs.org/"
+            }
+          ]
         }
       ]
     }

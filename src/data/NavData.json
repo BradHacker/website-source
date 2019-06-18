@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "home",
+    "about",
+    "web design",
+    "graphic design",
+    "machine learning"
+  ],
+  "socialLinks": [
+    { "icon": "twitter", "link": "https://twitter.com/bredhacker" },
+    {
+      "icon": "youtube",
+      "link": "https://www.youtube.com/channel/UCyXdOGIXzcjaVFvWl3BlPpg"
+    },
+    { "icon": "github", "link": "https://github.com/BradHacker" },
+    {
+      "icon": "linkedin",
+      "link": "https://www.linkedin.com/in/bradley-harker-60604262/"
+    }
+  ]
+}

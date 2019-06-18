@@ -1,0 +1,65 @@
+{
+  "name": "about",
+  "carousel": {
+    "title": "about me",
+    "tagline": "",
+    "block": "",
+    "isHero": true,
+    "videos": [
+      {
+        "src": "/videos/Love-Coding.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "src": "/videos/Hard_Drive_Videvo.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "src": "/videos/Words.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "src": "/videos/Modem-lights.mp4",
+        "type": "video/mp4"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "Icons",
+      "header": "",
+      "cols": 2,
+      "tiles": [
+        {
+          "icon": "graduation-cap",
+          "title": "High School",
+          "description": "Appomattox Regional Governor's School"
+        },
+        {
+          "faStyle": "fas",
+          "icon": "user-clock",
+          "title": "Experience",
+          "description": "17 years of life. 6 years of programming."
+        },
+        {
+          "faStyle": "fas",
+          "icon": "laptop-code",
+          "title": "Editor of Choice",
+          "description": "VS Code"
+        },
+        {
+          "faStyle": "fas",
+          "icon": "code",
+          "title": "Language of Choice",
+          "description": "Javascript"
+        },
+        {
+          "faStyle": "fas",
+          "icon": "file-code",
+          "title": "Frameworks",
+          "description": "React JS, Express, Node, Angular JS"
+        }
+      ]
+    }
+  ]
+}

@@ -1,55 +1,71 @@
 {
-  "exampleEntries": [
-    {
-      "image": {
-        "alt": "CBC Logo"
+  "name": "graphic design",
+  "carousel": {
+    "title": "graphic design",
+    "tagline": "",
+    "block": "",
+    "isHero": true,
+    "videos": [
+      {
+        "src": "/videos/Love-Coding.mp4",
+        "type": "video/mp4"
       },
-      "title": "CHESTERFIELD BASEBALL CLUB",
-      "description": "This was designed using Adobe Illustrator CS6."
-    }
-  ],
-  "resourceEntries": [
-    {
-      "image": {
-        "alt": "AI Logo"
+      {
+        "src": "/videos/Hard_Drive_Videvo.mp4",
+        "type": "video/mp4"
       },
-      "title": "Adobe Illustrator",
-      "links": [
+      {
+        "src": "/videos/Words.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "src": "/videos/Modem-lights.mp4",
+        "type": "video/mp4"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "Gallery",
+      "header": "examples",
+      "rows": [
         {
-          "href": "http://www.adobe.com/products/illustrator.html",
-          "icon": "globe"
-        },
-        {
-          "href": "https://www.facebook.com/AdobeIllustrator/",
-          "icon": "facebook"
-        },
-        {
-          "href": "https://twitter.com/Illustrator?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-          "icon": "twitter"
+          "cols": [
+            {
+              "img": {
+                "src": "/img/cbcLogo.png",
+                "alt": "CBC Logo"
+              },
+              "text": "chesterfield baseball club",
+              "link": "http://www.cbcbaseball.org/"
+            }
+          ]
         }
       ]
     },
     {
-      "image": {
-        "alt": "AD Logo"
-      },
-      "title": "Affinity Designer",
-      "links": [
+      "type": "Gallery",
+      "header": "resources",
+      "rows": [
         {
-          "href": "https://affinity.serif.com/en-us/designer/",
-          "icon": "globe"
-        },
-        {
-          "href": "https://www.facebook.com/MacAffinity/",
-          "icon": "facebook"
-        },
-        {
-          "href": "https://twitter.com/macaffinity?lang=en",
-          "icon": "twitter"
-        },
-        {
-          "href": "https://affinity.serif.com/blog/",
-          "icon": "rss"
+          "cols": [
+            {
+              "img": {
+                "src": "/img/affinity-designer.svg",
+                "alt": "affinity designer"
+              },
+              "text": "affinity designer",
+              "link": "https://affinity.serif.com/en-us/designer/"
+            },
+            {
+              "img": {
+                "src": "/img/photoshop.svg",
+                "alt": "photoshop cc"
+              },
+              "text": "photoshop cc",
+              "link": "https://www.adobe.com/products/photoshop.html"
+            }
+          ]
         }
       ]
     }

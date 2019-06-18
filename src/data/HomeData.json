@@ -1,0 +1,89 @@
+{
+  "name": "home",
+  "carousel": {
+    "title": "bradley harker",
+    "tagline": "web designer \u00B7 graphic designer \u00B7 programmer \u00B7 photographer",
+    "block": "",
+    "isHero": false,
+    "videos": [
+      {
+        "src": "/videos/Love-Coding.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "src": "/videos/Hard_Drive_Videvo.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "src": "/videos/Words.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "src": "/videos/Modem-lights.mp4",
+        "type": "video/mp4"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "TwoColumn",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+        "alt": "web design picture"
+      },
+      "header": "web design",
+      "taglines": [
+        "Functional and beautiful websites from the ground up to fit any needs.",
+        "Read more below about the tools I use."
+      ],
+      "description": "React, MongoDB, Node, Angular, VS Code, etc.",
+      "links": [
+        {
+          "pageLink": "web design",
+          "faClasses": "fa fa-chevron-right",
+          "text": "Learn More"
+        }
+      ]
+    },
+    {
+      "type": "TwoColumn",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80",
+        "alt": "graphic design picture"
+      },
+      "header": "graphic design",
+      "taglines": [
+        "Stunning graphics for your brand new site or company.",
+        "Read more below about the tools I use."
+      ],
+      "description": "Affinity Designer, Photoshop, etc.",
+      "links": [
+        {
+          "pageLink": "graphic design",
+          "faClasses": "fa fa-chevron-right",
+          "text": "Learn More"
+        }
+      ]
+    },
+    {
+      "type": "TwoColumn",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80",
+        "alt": "machine learning picture"
+      },
+      "header": "machine learning",
+      "taglines": [
+        "personal machine learning research using cutting edge libraries.",
+        "Read more below about the tools I use."
+      ],
+      "description": "Tensorflow, Keras, etc.",
+      "links": [
+        {
+          "pageLink": "machine learning",
+          "faClasses": "fa fa-chevron-right",
+          "text": "Learn More"
+        }
+      ]
+    }
+  ]
+}

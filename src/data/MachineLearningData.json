@@ -1,52 +1,87 @@
 {
-  "exampleEntries": [
-    {
-      "image": {
-        "alt": "P5-NN Screenshot"
+  "name": "machine learning",
+  "carousel": {
+    "title": "machine learning",
+    "tagline": "",
+    "block": "",
+    "isHero": true,
+    "videos": [
+      {
+        "src": "/videos/Love-Coding.mp4",
+        "type": "video/mp4"
       },
-      "title": "P5-NN",
-      "description": "A javascript neural network library created for use with p5.js.",
-      "link": "https://github.com/BradHacker/p5-nn"
-    },
-    {
-      "image": {
-        "alt": "Smart Rockets Screenshot"
+      {
+        "src": "/videos/Hard_Drive_Videvo.mp4",
+        "type": "video/mp4"
       },
-      "title": "SMART ROCKETS",
-      "description": "Rocket propelled objects use evolution to make their way to a target.",
-      "link": "https://github.com/BradHacker/smart-rockets"
-    },
-    {
-      "image": {
-        "alt": "NN-Genetic Screenshot"
+      {
+        "src": "/videos/Words.mp4",
+        "type": "video/mp4"
       },
-      "title": "NN-GENETIC",
-      "description": "Organisms movements are controlled by neural networks that learn using evolution.",
-      "link": "https://github.com/BradHacker/nn-genetic"
-    }
-  ],
-  "resourceEntries": [
+      {
+        "src": "/videos/Modem-lights.mp4",
+        "type": "video/mp4"
+      }
+    ]
+  },
+  "sections": [
     {
-      "image": {
-        "alt": "alt"
-      },
-      "title": "The Nature Of Code",
-      "links": [
+      "type": "Gallery",
+      "header": "examples",
+      "rows": [
         {
-          "href": "http://natureofcode.com/",
-          "icon": "globe"
+          "cols": [
+            {
+              "img": {
+                "src": "/img/p5nn.png",
+                "alt": "p5 nn"
+              },
+              "text": "p5-nn",
+              "link": "https://github.com/BradHacker/p5-nn"
+            },
+            {
+              "img": {
+                "src": "/img/smartRockets.png",
+                "alt": "smart rockets"
+              },
+              "text": "smart rockets",
+              "link": "https://github.com/BradHacker/smart-rockets"
+            },
+            {
+              "img": {
+                "src": "/img/nnGenetic.png",
+                "alt": "nn-genetic"
+              },
+              "text": "nn-genetic",
+              "link": "https://github.com/BradHacker/nn-genetic"
+            }
+          ]
         }
       ]
     },
     {
-      "image": {
-        "alt": "alt"
-      },
-      "title": "The Coding Train",
-      "links": [
+      "type": "Gallery",
+      "header": "resources",
+      "rows": [
         {
-          "href": "https://www.youtube.com/user/shiffman",
-          "icon": "youtube"
+          "cols": [
+            {
+              "img": {
+                "src": "/img/noc.png",
+                "alt": "nature of code"
+              },
+              "text": "nature of code",
+              "link": "http://natureofcode.com/"
+            },
+            {
+              "img": {
+                "src": "/img/ct.jpg",
+                "alt": "the coding train"
+              },
+              "text": "the coding train",
+              "link": "https://www.youtube.com/user/shiffman"
+            }
+          ]
         }
       ]
     }
